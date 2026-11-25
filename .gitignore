@@ -37,6 +37,7 @@ secrets.json
 uploads/
 backend/uploads/
 *.pdf
+!documentation/*.pdf
 *.docx
 *.doc
 
