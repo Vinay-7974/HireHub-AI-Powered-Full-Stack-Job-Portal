@@ -1,0 +1,70 @@
+# ==========================================
+# HireHub Git Ignore Configuration
+# ==========================================
+
+# Dependencies
+node_modules/
+frontend/node_modules/
+.pnp
+.pnp.js
+
+# Build Outputs
+dist/
+frontend/dist/
+dist-ssr/
+build/
+target/
+backend/target/
+*.class
+*.jar
+*.war
+*.ear
+
+# Environment & Sensitive Files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pkcs12
+*.pfx
+*.p12
+*.jks
+credentials.json
+secrets.json
+
+# User Uploads & Media
+uploads/
+backend/uploads/
+*.pdf
+*.docx
+*.doc
+
+# IDE & Editor Files
+.idea/
+*.iml
+.vscode/
+*.code-workspace
+.settings/
+.classpath
+.project
+*.sublime-project
+*.sublime-workspace
+
+# Logs & Cache
+*.log
+logs/
+backend/logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.vite/
+frontend/.vite/
+.eslintcache
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
